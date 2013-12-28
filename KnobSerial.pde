@@ -147,8 +147,7 @@ void draw() {
 public void myKnobB(int theValue) {
   myPort.clear();
   myPort.write("0,"+theValue+"\n");
-  println("hahahahaha");
-}
+ }
 
 public void knob(int theValue)
 {
