@@ -9,7 +9,7 @@ String commandString = "";
 boolean stringComplete = false;
 
 void setup(){
-  Serial.begin(9600);
+  Serial.begin(9600);// check that this is similar with the processing side 
   Serial.println("Go...");
 
   inputString.reserve(10);
@@ -49,12 +49,7 @@ void finish(){
     ;
   }
 }
-/*
-  SerialEvent occurs whenever a new data comes in the
- hardware serial RX.  This routine is run between each
- time loop() runs, so using delay inside loop can delay
- response.  Multiple bytes of data may be available.
- */
+
 void serialEvent() {
   while (Serial.available()) {
     // get the new byte:
