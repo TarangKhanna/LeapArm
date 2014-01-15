@@ -8,4 +8,4 @@ Parts used:
 
 2)Arduino Mega 2560
 
-3)Robotic arm with 4 Degrees of freedom. 
+3)Robotic arm with 5 Degrees of freedom (5 servo motors- rotation from 0 to 180 degrees). 
