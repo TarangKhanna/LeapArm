@@ -48,7 +48,7 @@ Data shown to user
 Smooth response 
 Flexible arm 
 Able to pick up materials
-
+=======
 Criteria C
 
 Development:
@@ -155,7 +155,7 @@ GUI is created using the controlP5 library, coded it as follows:
             .setDragDirection(Knob.VERTICAL)
               ;
               
-
+=======
 
 For gesture recognition:
 
@@ -187,9 +187,12 @@ public void leapOnCircleGesture(CircleGesture g, int state){
 myPort.write("5,"+0+ "\n"); // write to the motor- the 5th motor is the grabber
 }
 
+=======
 Explanation:
 
-We make this public so the values are accessible across the whole program and is in sync with the leap data. Using switch case we are able to invoke the servo motor to move by writing to the serial port, which is defined earlier in the program. We write 180 to open the grabber fully (in case 3), we include if the gesture is not detected the motor will stay close, by writing 0 degree angle to the same motor. 
+Using switch case we are able to invoke the servo motor to move by writing to the serial port, which is defined earlier in the program. We write 180 to open the grabber fully (in case 3), we include if the gesture is not detected the motor will stay close, by writing 0 degree angle to the same motor. Other things should be explained in comments.
+
+=======
 
 Recommendations for further improvement:
 
