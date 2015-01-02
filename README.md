@@ -10,6 +10,12 @@ Parts used:
 
 3)Robotic arm with 5 Degrees of freedom (5 servo motors- rotation from 0 to 180 degrees). 
 
+SETUP:
+Download the code here and then be sure to have the PROCESSING IDE and ARDUINO IDE to run the code. Attach the leap motion sensor to the computer and the arduino to the computer. The setup of arduino to the robotics arm is shown in the images(just connect the pins to the servos and change the arduino code to represent the correct digital pin number). Description is given below.
+
+=======
+
+
 Project details:
 
 Criteria A
@@ -189,7 +195,7 @@ Recommendations for further improvement:
 
 Requires a more fluent movement which can be solved by using computers with higher processing power, or by running the code on the GPU instead of its CPU, which would give parallel processing power.
 
-A larger scaled robotic arm
+A larger scaled robotic arm.
 
 
  
