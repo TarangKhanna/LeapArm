@@ -1,7 +1,10 @@
 LeapArm
 =======
-The goal of this project was to understand how to use the leap motion sensor with the arduino and robotic arm I had lying around. I use the Arduino mega for controlling the servos on the robotic arm. 
-The code consists of two parts- processing IDE and arduino IDE. 
+The goal of this project was to understand how to use the leap motion sensor with the arduino and robotic arm. I use the Arduino mega for controlling the servos on the robotic arm. 
+
+Used in the design and technology lab of YCIS currently to teach about different ways of robotic interactions. 
+
+The code consists of two parts, processing IDE and arduino IDE. 
 Parts used:
 
 1)Leap motion sensor 
@@ -17,10 +20,6 @@ Download the code here and then be sure to have the PROCESSING IDE and ARDUINO I
 
 
 Project details:
-
-Criteria A
-
-
 
 Rationale: Controlling a robotic arm with a leap motion provides a natural interface as it lets the user control it by moving their hand. Making this project will take learning a new programming interface and applying what I have learned in the IB computer science. It will help gain a deeper understanding of robots, and the whole field of computer science. People need to see the end result of what they are learning in classes such as D&T and computer science. Making a robotic arm follow a humans hand seems very futuristic and will be sure to attract students to take up such fields. Ways that would be helpful in getting people interested in D&T, and would teach them about the design process and different usage of robots in the world.
 
@@ -49,7 +48,6 @@ Smooth response
 Flexible arm 
 Able to pick up materials
 =======
-Criteria C
 
 Development:
 
@@ -199,6 +197,10 @@ Recommendations for further improvement:
 Requires a more fluent movement which can be solved by using computers with higher processing power, or by running the code on the GPU instead of its CPU, which would give parallel processing power.
 
 A larger scaled robotic arm.
+
+Add more DOF arms.
+
+Manipulate robotic fingers. 
 
 
  
