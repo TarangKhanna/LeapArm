@@ -16,6 +16,8 @@ Parts used:
 SETUP:
 Download the code here and then be sure to have the PROCESSING IDE and ARDUINO IDE to run the code. Attach the leap motion sensor to the computer and the arduino to the computer. The setup of arduino to the robotics arm is shown in the images(just connect the pins to the servos and change the arduino code to represent the correct digital pin number). Description is given below.
 
+![Alt text](https://github.com/TarangKhanna/LeapArm/blob/master/Photos/ARM.png "Setup with GUI and arm")
+
 =======
 
 
